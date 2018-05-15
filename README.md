@@ -5,7 +5,7 @@ statsd service with anodot backend that send metrics via anodot API
 
 ### Usage
 - `docker pull anodot/anodot-statsd`
-- `docker run -d -e "ANODOT_API_TOKEN=YOUR_API_TOKEN" -p 8125:8125/udp -p 8126:8126 anodot-statsd`
+- `docker run -d -e "ANODOT_API_TOKEN=YOUR_API_TOKEN" -p 8125:8125/udp -p 8126:8126 anodot/anodot-statsd`
 
 #### Git
 
